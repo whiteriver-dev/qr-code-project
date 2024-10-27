@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&display=swap');
+
+*{
+    font-family: 'Outfit';
+    max-width: 100%;
+    height: auto;
+}
+
+html, body {
+    background-color: #D5E1EF;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: white;
+    box-sizing: border-box;
+    padding: 16px;
+    margin-left: 27.5px;
+    margin-right: 27.5px;
+    text-align: center;
+    width: 320px;
+    height: 499px;
+    min-width: 320px;
+    min-height: 499px;
+    border-radius: 20px;
+    gap: 24px;
+}
+
+.container h1 {
+    font-size: 22px;
+    color: #1F314F;
+}
+
+.container p {
+    font-size: 15px;
+    color: #68778D;
+}
+
+.container img {
+    border-radius: 10px;
+}
+
